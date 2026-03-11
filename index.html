@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+<title>AI Football Predictor</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/football-theme.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+⚽ AI Football Predictor
+</div>
+
+<nav>
+
+<a href="index.html">Главная</a>
+<a href="matches.html">Матчи</a>
+<a href="predictions.html">Прогнозы</a>
+<a href="stats.html">Статистика</a>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>AI прогнозы футбольных матчей</h1>
+
+<p>
+Анализ формы команд, коэффициентов букмекеров и статистики.
+</p>
+
+<button onclick="loadMatches()">Показать матчи</button>
+
+</section>
+
+
+<section id="matchesContainer" class="matches"></section>
+
+<script src="js/app.js"></script>
+<script src="js/matches.js"></script>
+<script src="js/ai-engine.js"></script>
+
+</body>
+</html>
